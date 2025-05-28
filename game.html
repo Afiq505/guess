@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game - Word Guess</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="screen active">
+    <h1>Guess the Word</h1>
+    <p>Hint: It's a fruit 🍓</p>
+    <input type="text" id="guessInput" placeholder="Enter your guess" />
+    <button class="btn" onclick="checkGuess()">Guess</button>
+    <div id="message"></div>
+    <div id="guesses"></div>
+    <button class="btn" onclick="location.href='main.html'">Back to Menu</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
